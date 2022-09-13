@@ -35,9 +35,9 @@ Once the notebook has been provisioned, click 'Open JupyterLab'. A JupyterLab wi
 
 ## Getting the sample code
 
-In the JupyterLab window that opens, click 'Git' in the top menu and clone the repository (replace with your clone/fork):
+In the JupyterLab window that opens, click 'Git' in the top menu and clone the repository (replace with your clone/fork), the quickest way to get past authentication is to generate and use a personal access token in place of your GitHub password:
 
-    https://github.com/Jiaxen/sample-gcp-nlp-flask.git
+    https://github.com/was111607/sample-gcp-nlp-flask.git
 
 You should see the repo cloned into the navigator on the left side of the page. Navigate into the sample notebooks:
 
@@ -45,8 +45,12 @@ You should see the repo cloned into the navigator on the left side of the page. 
     
 You can now read through the notebook and the sample outputs.
 
+## Initial notebook test run
+
+To complete a test run of the notebook, you must first access the deployed backend API and POST text for analysis. After this has been completed, restart the kernel and re-run the notebook (this may need to be repeated several times as newly installed libraries may not update the notebook quickly enough).
+
 ## Analysing Articles
 
-Develop your text anlaysis solution. You can find articles to analyse in the /articles directory.
+Develop your text analysis solution. You can find articles to analyse in the /articles directory.
 
 
